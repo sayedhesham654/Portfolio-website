@@ -1,0 +1,812 @@
+/*start main rules*/
+body
+{
+    box-sizing: border-box;
+    height:4000px;
+    overflow: hidden;
+
+}
+/*End main rules */
+/****start our modifations******/.navbar{ height:95px; margin-bottom: 0px}
+.navbar a.navbar-brand 
+{
+    margin-top: 15px;
+    font-size: 30px;
+    font-weight:700;
+    color: #F78536;
+    letter-spacing: -1px;
+    padding-bottom: 5px;
+}
+.navbar a.navbar-brand:hover
+{
+    margin-top: 15px;
+    font-size: 30px;
+    font-weight:700;
+    color: #F78536;
+    letter-spacing: -1px;
+}
+.navbar span.firsticone
+{
+   
+    margin-right: 4px;
+    margin-top: 1px;
+    background-color: rgba(0, 0, 0, 0.06);
+    width:35px;
+    border-radius: 50%;
+    display: inline-block;
+    height: 35px;
+    padding-top: 4px;
+    padding-right: 4px;
+}
+.navbar span.firsticone:hover
+{
+   
+    margin-right: 4px;
+    margin-top: 1px;
+    background-color: rgba(0, 0, 0, 0.06);
+    width:35px;
+    border-radius: 50%;
+    display: inline-block;
+    height: 35px;
+    padding-top: 4px;
+    padding-right: 4px;
+}
+
+.navbar-default .navbar-nav > li > a { margin-top: 25px;font-size: 16px;font-weight: 600;}
+.navbar-default .navbar-nav > li > a:hover{ color:#F78536; transition:0.5s}
+
+.navbar-default .navbar-nav > li > a.active-child{color:#F78536;}
+
+.navbar-nav > li > .dropdown-menu
+{
+
+    border-radius:10px;
+    left:10px;
+    border:1px solid #F78536;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus
+{
+    background-color: white;
+    color:#F78536
+}
+.dropdown-menu > li > a
+{
+    color:black;
+    font-weight: bold;
+    line-height: 3;
+    font-size: 15px;
+    transition: all 0.7s ease;
+    
+}
+.dropdown-menu > li > a:hover{color:  #F78536; padding-left: 30px}
+
+.dropdown-menu .divider{margin: 0px; background-color: #F78536}
+
+.navbar-default .navbar-toggle
+{
+    margin-top: 25px;
+}
+.navbar-nav 
+{
+    background-color: white;
+}
+/**** start first section***/
+section.first-section
+{
+    background: linear-gradient(to right, rgba(255, 62, 28, 0.5) 0%, rgba(255, 140, 0, 0.5) 100%);
+    height: 800px;;
+    overflow:hidden; 
+}
+.layout1
+{
+    background:url(../imgs/travel.jpg) center center fixed;
+}
+section.first-section  .thefirst 
+{
+    margin-top: 160px;
+    padding-bottom: 20px;
+    background-color: #ffffffff;
+    padding-left: 0px;
+    box-shadow: 15px 15px 40px #181b1852,
+                -15px -15px 40px #181b1852;
+    margin-left: px;
+    margin-right: 0px;             
+}
+section.first-section  .thefirst div.buttons
+{
+   background-color: #ffffffff; 
+}
+section.first-section  .thefirst .padding
+{
+    padding-left: 20px;
+}
+section.first-section  .thefirst div.buttons button
+{
+    outline: none;
+    border: none;
+    background-color: #ffffffff;
+    margin:0px;
+    display: inline-block;
+    width:100px;
+    height:50px;
+    font-size:19px;
+    font-weight:bold;
+    color:#F78536;
+}
+section.first-section  .thefirst div.buttons button:hover
+{
+    background-color: #eee
+}
+section.first-section  .thefirst div.buttons button:focus
+{
+    color: white;
+    background-color:#F78536; 
+}
+section.first-section .thefirst .first-div
+{
+    background-color: white;
+    overflow: hidden;
+    
+}
+section.first-section  .thefirst div label
+{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 7px;
+    margin-top:10px;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+}
+section.first-section  .thefirst .first-div input
+{
+    background-color: rgba(0, 0, 0, 0.05);
+    border:none;
+    color:#F78536;
+    height: 50px;
+    padding: 10px;
+    width:184px;
+    overflow: hidden;
+    width:100%;
+}
+section.first-section  .thefirst .first-div select
+{
+    background-color: rgba(0, 0, 0, 0.05);
+    border:none;
+    color:#F78536;
+    height: 50px;
+    padding: 10px;
+    width:100%;
+    margin-bottom: 10px;
+    border:none;
+    border-radius:0px;
+}
+
+section.first-section  .second-div,
+section.first-section  .third-div
+{
+    display: none;
+}
+section.first-section .thefirst .second-div .col-md-12 input,
+section.first-section .thefirst .second-div .col-md-6 input,
+section.first-section .thefirst .third-div .col-md-6 input,
+section.first-section .thefirst .second-div .col-md-12 select,
+section.first-section .thefirst .second-div .col-md-6 select,
+section.first-section .thefirst .third-div .col-md-6 select,
+section.first-section .thefirst .third-div .col-md-12 select
+{
+    width:100%;
+    height:50px;
+    color:#F78536;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.05);
+    border:none;
+}
+section.first-section .thefirst .second-div .col-md-12 button,
+section.first-section .thefirst .first-div .col-md-12 button,
+section.first-section .thefirst .third-div .col-md-12 button
+{
+    width:100%;
+    margin-top: 15px;
+    background-color: #F78536;
+    color: white;
+    height:70px;
+    font-weight: bold;
+    font-size: 20px;
+    transition: all 0.5s ease
+}
+section.first-section .thefirst .second-div .col-md-12 button:hover,
+section.first-section .thefirst .first-div .col-md-12 button:hover,
+section.first-section .thefirst .third-div .col-md-12 button:hover
+{
+    background-color: #393e46;
+    color: white;
+}
+
+section.first-section .thefirst input::-webkit-input-placeholder {
+    
+    color:#F78536 ;
+    
+}
+section.first-section .thesecond div.first
+{
+    margin-top: 250px;
+    color:rgba(255, 255, 255, 0.7);
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+section.first-section .thesecond div.first a
+{
+    color: white;
+    text-decoration: underline;
+    line-height: 1.7;
+    padding: 10px;
+    font-weight: thin;
+}
+section.first-section .thesecond div.first a:hover
+{
+    cursor:Pointer;
+}
+section.first-section .thesecond  h1
+{
+    color: white;
+    font-size:60px;
+}
+section.first-section .thesecond  h1 span
+{
+    font-size: 45px;
+    color: black 
+}
+section.first-section .thesecond div.second
+{
+    color:white;
+    font-size: 25px;
+    margin-top: 20px;
+}
+section.first-section .thesecond span.span
+{
+    font-size: 60px;
+    display: block;
+    margin-top: 30px;
+    color: white;
+}
+/* end first section*/
+/* start section famous twons */
+section.famous-towns 
+{
+    padding-top:40px; 
+    background: rgba(0, 0, 0, 0.04);
+    overflow: hidden;
+
+}
+section.famous-towns h1
+{
+    color:#555;
+    margin-bottom: 30px;
+}
+section.famous-towns p
+{
+    color: #888;
+    font-size: 20px;
+    font-weight: 100;
+    margin-bottom: 50px;
+}
+section.famous-towns hr
+{
+    width: 100px;
+    background-color:#F78536;
+    height:2px;
+}
+section.famous-towns .back
+{
+    color: white;
+    position: relative;
+    border-radius: 2%;
+    margin-top: 50px;
+    overflow: hidden;
+}
+section.famous-towns .back img
+{
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+    overflow: hidden;
+    
+}
+section.famous-towns .back .front
+{
+    position: absolute;
+    top:0;
+    background: rgba(1,1,1,0.4);
+    padding-left: 20px;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px; 
+    transition:all 0.5s ease-in-out;
+}
+section.famous-towns .back .front:hover
+{
+     box-shadow:0px 8px 60px 20px rgba(1,1,1,0.7) inset;
+                
+   
+}
+section.famous-towns .back .front h3
+{
+    position: absolute;
+    top:18%;  
+    font-size: 30px;
+}
+section.famous-towns .back .front span
+{
+    position: absolute;
+    top:44%;  
+    display: block;
+    font-size: 17px;
+    margin-bottom: 10px;
+    font-weight: thin;
+}
+section.famous-towns .back .front h2
+{
+    position: absolute;
+    top:49%;  
+    display: block;
+     margin-bottom: 10px;
+    
+}
+section.famous-towns .back .front button
+{
+    position: absolute;
+    top:77%;  
+    background:transparent;
+    border-radius: 5px;
+    border:2px solid white;
+    transition: all 0.5s ease-in-out;
+}
+section.famous-towns .back .front button:hover{
+    background-color: #F78536;
+    border: 2px solid #F78536;
+    color: white
+}
+section.famous-towns .back .front button i
+{
+    margin-left: 20px;
+}
+section.famous-towns  p a 
+{
+    display: block;
+    margin-top: 40px;
+    text-decoration: none;
+    color:#F78536;
+    border: 2px solid #F78536;
+    transition: all 0.5s ease-in-out;
+}
+section.famous-towns  p a:hover 
+{
+    display: block;
+    margin-top: 40px;
+    text-decoration: none;
+    color:white;
+    border: 2px solid #F78536;
+    background-color: #F78536
+}
+section.famous-towns  p a i
+{
+    margin-left: 20px;
+}
+/* end section famous twons */
+/* start section media*/
+section.media
+{
+    padding-top: 150px;
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+section.media .media .media-left
+{
+    color:#9999993d;
+    padding-right: 40px;
+}
+section.media .media .media-body .media-heading
+{
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+section.media .media .media-body p
+{
+    color:#999999cf;
+    line-height: 2;  
+}
+section.media .media .media-body span
+{
+    color:#F78536;
+    font-size:15px;
+    margin-top: 15px;
+    display: inline-block;
+    margin-bottom: 40px;
+}
+/* end section media*/
+/*start section photos*/
+.photos
+{
+    margin-top: 100px;
+    overflow: hidden;
+}
+.photos .col-md-3,.photos .col-md-6
+{
+    padding: 0px;
+}
+.photos .col-sm-6
+
+{
+    width:100%;
+    height:100%:
+}
+.photos img
+{
+    width:100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height:220px;
+}
+.photos .layedout
+{
+    position: relative;
+    width:100%:
+}
+.photos .layout2
+{
+    position: absolute;
+    top:0px;
+    left: 0px;
+    width:100%;
+    height: 100%;
+    background-color: rgba(1,1,1,0.5);
+   transition: all 0.3s ease-in-out;
+}
+.photos .layout2 h1
+{
+   margin-top: 30px;
+    color: white;
+    border: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+   
+}
+.photos  .destinations
+{
+    background-color: #00AD7C;
+    color:white;
+}
+.photos  .destinations h1
+{
+    margin-top: 50px;
+    font-size:40px;
+}
+.photos  .destinations button
+{
+    border-radius:5px;
+    border:1px solid #fff;
+    padding: 10px;
+    background: transparent;
+    letter-spacing:3px;
+    margin-left: 32%;
+    margin-top:20px;
+    margin-bottom: 54px;
+    text-transform: uppercase;
+}
+.photos  .destinations button:hover
+{
+    color:white;
+}
+/*end section photos*/
+/* start section recent blog*/
+.recent-blog
+{
+    padding-top: 150px;
+    padding-bottom: 100px;
+    overflow: hidden;
+    
+}
+section.recent-blog h1
+{
+    color:#555;
+    margin-bottom: 30px;
+    margin-top: 50px
+}
+section.recent-blog p
+{
+    color: #888;
+    font-size: 20px;
+    font-weight: 100;
+    margin-bottom: 50px;
+}
+section.recent-blog hr
+{
+    width: 100px;
+    background-color:#F78536;
+    height:2px;
+    margin-bottom: 80px;
+}
+section.recent-blog .box
+{
+    margin-bottom: 40px;
+
+}
+section.recent-blog .box img
+{
+    
+    box-shadow: 1px  5px 50px rgba(0,0,0,0.2);
+}
+section.recent-blog .box h3
+{
+    color:#777;
+    padding-left: px;
+}
+section.recent-blog .box .box2 
+{
+    overflow: hidden;
+    padding-left: 20px;
+    box-shadow: 1px  5px 50px rgba(0,0,0,0.2);
+}
+section.recent-blog .box .box2 .no-float span
+{
+    font-size: 17px;
+    color:#999;
+    margin-top: 20px;
+    padding-right: 20px;
+    display:inline-block;
+    margin-bottom: 10px;
+}
+section.recent-blog .box .box2 .no-float span i
+{
+    color:#F78536;
+}
+section.recent-blog .box .box2 p
+{
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 1.7;
+    color:#777;
+    letter-spacing: 1px;
+}
+section.recent-blog .box .box2 span:nth-child(4)
+{
+    color:#F78536;
+    font-size: 18px;
+    font-weight: 100;
+    display: inline-block;
+    padding-bottom: 40px;
+    cursor: pointer;
+}
+/* end section recent blog*/
+/*start section quotes*/
+section.quotes
+{
+    background-color:#00AD7C;
+    padding-top: 150px;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+section.quotes h1
+{
+    color:white;
+    margin-bottom:40px;
+}
+section.quotes .testimonials
+{
+    background-color: white;
+    border-radius:10px;
+    margin-bottom: 30px;
+    position: relative;
+}
+section.quotes .testimonials span:first-of-type
+{
+    display: inline-block;
+    background-color: #00AD7C;
+    border-radius:50%;
+    padding: 15px;
+    color:white;
+   
+    margin-left: 10px;
+    position: absolute;
+    top:-34px;
+}
+section.quotes .testimonials p
+{
+    padding:25px;
+    padding-bottom: 15px;
+    font-size: 18px;
+    color:#999;
+    line-height: 1.7;
+    font-weight: thin;
+    word-spacing: 1.6px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    margin-bottom: 0px;
+}
+section.quotes .testimonials:after
+{
+    content: "";
+    position: absolute;
+    top:100%;
+    left:40px;
+    border-top:20px solid white;
+    border-left: solid 20px transparent;
+    border-right: solid 20px transparent;
+    display: block;
+    
+}
+section.quotes .col-md-4
+{
+    padding-bottom: 0px;
+}
+section.quotes .testimonials2
+{
+    margin-bottom: 50px;;
+    
+}
+section.quotes .testimonials2 p
+{
+    color:white;
+    font-size:22px;
+    margin-bottom: 0px;
+}
+section.quotes .testimonials2 p span
+{
+    font-size: 22px;
+    color:rgba(255, 255, 255, 0.5);
+}
+section.quotes .testimonials2 p span:hover
+{
+    color:white;
+    cursor: pointer;
+}
+section.quotes .testimonials2  span
+{
+    margin-top: -5px;
+    font-size: 20px;
+    color:rgba(255, 255, 255, 0.5);
+    display: inline-block;
+}
+/*end section quotes*/
+/*start section footer*/
+section.ender
+{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color:#393e46;
+    overflow: hidden;
+}
+section.ender h4
+{
+    color:white;
+    margin-bottom:25px;
+    margin-top: 40px;
+}
+section.ender p 
+{
+    padding-top: 6px;
+    font-size:14px;
+    color:#ffffffad;
+    margin-bottom: 
+}
+section.ender  ul li a
+{
+    margin-top: 0px;
+    text-decoration: none;
+    color:#ffffff6b;
+    font-size:18px;
+    line-height: 1.8;
+    font-weight: 100;
+}
+section.ender  ul li a:hover
+{
+    color:white;
+    cursor:pointer;
+}
+section.ender .icons
+{
+    margin-top: 90px;
+}
+section.ender .icons a
+{
+    color:#ffffff6b;
+    margin-left:20px;
+}
+section.ender .icons a:hover
+{
+    cursor:pointer;
+    color:white;
+}
+section.ender .last
+{
+    padding-top:30px; 
+}
+section.ender .last p
+{
+    font-size:15px;
+    margin-bottom: 0px;
+}
+section.ender .last p span
+{
+    color:#ffffff6b;
+}
+section.ender .last p span:hover{
+    color:#ffffffad;
+    cursor:pointer;
+}
+/*end section footer*/
+/*start section over lay*/
+.overlay
+{
+    width:100%;
+    height: 100%;
+    background-color: #fff;
+    left:0;
+    top:0;
+    z-index: 999999;
+    position: fixed;
+    color:white;
+    padding-top: 15%
+}
+.spinner {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    margin: 100px auto;
+}
+
+.double-bounce1, .double-bounce2 {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #F78536;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+    animation: sk-bounce 2.0s infinite ease-in-out;
+}
+
+.double-bounce2 {
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+
+@-webkit-keyframes sk-bounce {
+  0%, 100% { -webkit-transform: scale(0.0) }
+  50% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes sk-bounce {
+  0%, 100% { 
+    transform: scale(0.0);
+    -webkit-transform: scale(0.0);
+  } 50% { 
+    transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+  }
+}
+/*end section over lay*/
+/*start section scroll top*/
+.scrolltop
+{
+    position: fixed;
+    right:3px;
+    top:500px;
+    background-color: white;
+    color: #F78536;
+    border-radius: 50%;
+    padding:5px 5px 7px 5px;
+    cursor:pointer;
+    display: none;
+    z-index: 999999;
+}
+/*end section scroll top*/
+/****end our modifations******/
